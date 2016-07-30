@@ -112,7 +112,7 @@ type HttpResponse struct {
 	Failure      uint     `json:"failure,omitempty"`
 	CanonicalIds uint     `json:"canonical_ids,omitempty"`
 	Results      []Result `json:"results,omitempty"`
-	MessageId    int     `json:"message_id,omitempty"`
+	MessageId    int64    `json:"message_id,omitempty"`
 	Error        string   `json:"error,omitempty"`
 }
 
